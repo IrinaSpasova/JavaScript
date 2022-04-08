@@ -33,9 +33,11 @@ function onMouseMove(event){
     x = event.offsetX;
     y = event.offsetY;
     if (!painting) {
+       // console.log('Създава начална точка');
         ctx.beginPath();
         ctx.moveTo(x, y);
     } else {
+       // console.log("Започва да рисува");
         ctx.lineTo(x, y);
         ctx.stroke();
     }
