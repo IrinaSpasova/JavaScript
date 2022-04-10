@@ -1,0 +1,16 @@
+{
+  "name": "website-accessibility-tester-with-javascript-and-pa11y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pa11y": "^6.2.2"
+  }
+}
