@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="wrapper">
+        <div class="blob_container">
+            <div class="blob"></div>
+        </div>
+
+        <div class="sliders">
+            <h2 class="title">Blob Maker</h2>
+
+            <div class="slider width" data-attr="0">
+                <label for="">Width (px)</label>
+                <input class="range" type="range" id="width" value="0"
+                min="0" max="800">
+            </div>
+
+            <div class="slider height" data-attr="0">
+                <label for="">Height (px)</label>
+                <input class="range" type="range" id="height" value="0"
+                min="0" max="800">
+            </div>
+
+            <div class="slider top-left" data-attr="0">
+                <label for="">Top Left Radius</label>
+                <input class="range" type="range" id="top-left" value="0"
+                min="0" max="100">
+            </div>
+
+            <div class="slider top-right" data-attr="0">
+                <label for="">Top Right Radius</label>
+                <input class="range" type="range" id="top-right" value="0"
+                min="0" max="100">
+            </div>
+
+            <div class="slider bottom-left" data-attr="0">
+                <label for="">Bottom Left Radius</label>
+                <input class="range" type="range" id="bottom-left" value="0"
+                min="0" max="100">
+            </div>
+
+            <div class="slider bottom-right" data-attr="0">
+                <label for="">Bottom Right Radius</label>
+                <input class="range" type="range" id="bottom-right" value="0"
+                min="0" max="100">
+            </div>
+
+            <div class="output">
+                <span id="code">
+                   
+                </span>
+                <span class="copy"></span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
